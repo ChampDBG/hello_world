@@ -1,4 +1,4 @@
-# Setting for steamos
+# Config file for steamos
 - .bashrc
 - vimrc
 - tmux.conf
@@ -16,3 +16,9 @@
         # after install
         > sh ./pacman_install/disable_pacman.sh
         ```
+
+# VScode setting
+- Font-related:
+    1. Reference: [terminal only supports monospace fonts](https://github.com/microsoft/vscode/issues/51543)
+    2. Download font from [NerdFonts](https://www.nerdfonts.com/font-downloads)
+    3. Adjust user settsing as `/vscode/settings.json`
